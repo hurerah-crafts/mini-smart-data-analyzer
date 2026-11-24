@@ -1,0 +1,35 @@
+Welcome to the Mini Smart Data Analyzer!
+
+Enter at least 10 numbers, separated by commas:
+> 
+====================================================
+             MINI SMART DATA ANALYZER
+====================================================
+Entered data (Python list): [12.0, 15.0, 18.0, 20.0, 22.0, 25.0, 28.0, 30.0, 32.0, 35.0]
+NumPy array:                 [12. 15. 18. 20. 22. 25. 28. 30. 32. 35.]
+
+STATISTICS
+Mean:    23.70
+Median:  23.50
+Maximum: 35.00
+Minimum: 12.00
+Sum:     237.00
+
+ARRAY OPERATIONS
+Ascending order:            [12. 15. 18. 20. 22. 25. 28. 30. 32. 35.]
+Values greater than mean:   [25. 28. 30. 32. 35.]
+
+AI-GENERATED INSIGHT
+AI insight unavailable: GROQ_API_KEY was not found. Add your key to the .env file and run the program again.
+
+Analysis complete. Thank you!
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
